@@ -34,7 +34,7 @@ Some items appear multiple times in different transactions. To measure this, I c
 
 Explanation: Groups the data by item name and counts how many times each item appears.
 
-![Occurrences](Occurrences.jpg)
+![05_Occurrences](05_Occurrences.jpg)
 
 
 ### Total Quantity per Item
@@ -45,13 +45,13 @@ Occurrences alone are not enough, so I added a Total Quantity column:
 
 Explanation: Sums all quantities for each item and assigns the total to each row in that group.
 
-![Total Quantity](Total Quantity.jpg)
+![05_Total_Quantity](05_Total_Quantity.jpg)
 
 ### Top 20 Items by Quantity Sold
 
 I grouped the data by item, summed the quantities, sorted results, and selected the top 20.
 
-![quantity](quantity.png)
+![05_total_quantity_sold](05_total_quantity_sold.png)
 
 ### Top 20 Items by Net Value
 
@@ -76,7 +76,7 @@ Finally, formatted currency:
     .apply(lambda x: f'€{x:,.2f}')
 )**
 
-![net_value](net_value.png)
+![05_net_sales](05_net_sales.png)
 
 ## Conclusion
 
