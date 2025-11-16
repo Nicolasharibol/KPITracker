@@ -82,6 +82,6 @@ Finally, formatted currency:
 
 Sales data analysis plays a key role in supporting retail business strategies. It reveals trends, highlights best-selling products, and helps teams understand customer preferences. This guides communication, marketing, and in-store engagement.
 
-In this project, personalization stood out strongly. Adding a customized touch to an item the customer already wants creates extra value with minimal added cost. This upgrade generated net revenue close to the store’s highest-priced items. These insights help management and store teams refine storytelling, improve customer interaction, and strengthen value-added offerings.
+In this project, personalization stood out strongly. Adding a customized touch to an item the customer already wants creates extra value with minimal added cost. This upgrade generated net revenue close to the store’s highest-priced items. These insights support management, store teams, and marketing efforts by refining storytelling, improving customer interaction, and strengthening value-added offerings across the entire customer journey.
 
 Overall, this analysis shows how data helps align people, products, and business goals—supporting a more informed, responsive, and value-driven retail experience.
