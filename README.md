@@ -45,7 +45,7 @@ Occurrences alone are not enough, so I added a Total Quantity column:
 
 Explanation: Sums all quantities for each item and assigns the total to each row in that group.
 
-![image_occurrences_column](image_occurrences_column.jpg)
+![Image_total_quantity_column](Image_total_quantity_column.jpg)
 
 ### Top 20 Items by Quantity Sold
 
