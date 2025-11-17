@@ -1,92 +1,69 @@
-# 📊 Retail Sales Analysis — September 2025
+Berlin Retail Sales Analysis – September 2025
 
-## Data Analytics Project (Python, Pandas, Tableau, Excel)
+✨ Data-driven insights for a real retail environment
 
-### Project Introduction
+📌 Overview
 
-In a real-world business scenario, I analyzed sales data from a Berlin store for September 2025, extracted from cloud-based business management software. To share the project publicly, I converted the dataset into a fully generic format while preserving its original structure and realistic retail characteristics.
-Although this is a small yet in-depth analysis, the workflow and techniques used here can easily scale to larger datasets, multiple stores, and longer periods of time.
+This project analyzes anonymized retail sales data from a Berlin store (September 2025).
+The dataset was adapted into a generic format for public sharing, while keeping its real structure and analytical value intact.
 
-### Objective
+The analysis focuses on identifying the store’s top-performing products, uncovering trends, and demonstrating a workflow that can scale to multi-store or larger datasets.
 
-The goal of this project was to produce a monthly sales report and uncover trends among the top 20 items by quantity sold and top 20 items by total net value.
+🎯 Objectives
 
-### Data Preparation
+Generate a monthly retail sales snapshot
 
-The dataset consisted of 988 rows and 23 columns. I focused on the following key fields:
+Identify the Top 20 items by:
 
-- **Item** — product name  
-- **Quantity** — number of units sold per transaction  
-- **Discount %** — discount percentage applied  
-- **Price Unit Including VAT** — standard unit price  
-- **Total discount** — monetary discount value applied  
-- **Net price unit including VAT** — final amount paid by the customer  
+🛒 Quantity sold
 
-The data was saved into Excel for easier exploration and then imported into Python.
+💶 Net sales value
 
-## Exploratory Data Analysis
+Surface insights that support:
 
-### Occurrences of Each Item
+In-store storytelling
 
-Some items appear multiple times in different transactions. To measure this, I created an Occurrences column:
+Strategic marketing
 
-**df['Occurrences'] = df.groupby('Item')['Item'].transform('size')**
+Customer-focused decisions
 
-Explanation: Groups the data by item name and counts how many times each item appears.
+📊 Data & Methods
 
-![image_occurrences_column](image_occurrences_column.jpg)
+988 rows · 23 columns, reduced to essential sales fields
+
+Key variables analyzed:
+
+Item
+
+Quantity
+
+Discount %
+
+Price incl. VAT
+
+Total discount
+
+Net price incl. VAT
+
+Additional calculated metrics:
+
+Occurrences per item
+
+Total Quantity per item
+
+Individual Net Value per transaction
+
+Tools used: Python, pandas, Jupyter Notebook, Excel
+
+🔍 Key Insights
+
+Personalization-based items perform exceptionally well.
+
+These products create high added value with minimal cost, generating revenue comparable to premium items.
+
+Insights help improve storytelling on the shop floor and guide higher-level marketing decisions.
+
+Retail teams can align communication and strategy more effectively using data.
 
 
-### Total Quantity per Item
-
-Occurrences alone are not enough, so I added a Total Quantity column:
-
-**df['Total Quantity'] = df.groupby('Item')['Quantity'].transform('sum')**
-
-Explanation: Sums all quantities for each item and assigns the total to each row in that group.
-
-![Image_total_quantity_column](Image_total_quantity_column.jpg)
-
-### Top 20 Items by Quantity Sold
-
-I grouped the data by item, summed the quantities, sorted results, and selected the top 20.
-
-![visualization_total_quantity_sold](visualization_total_quantity_sold.png)
-
-### Top 20 Items by Net Value
-
-To calculate net revenue per item, I created a new column:
-
-**df = df.assign(IndividualTotalValue=lambda x: x['Quantity'] * x['Price unit netto including VAT'])**
-
-Then aggregated by item:
-
-**top_20_items_value_netto = (
-    df.groupby('Item', as_index=False)
-      .agg({'Quantity': 'sum', 'IndividualTotalValue': 'sum'})
-      .rename(columns={'IndividualTotalValue': 'Total Net Value'})
-      .sort_values(by='Total Net Value', ascending=False)
-      .head(20)
-)**
-
-Finally, formatted currency:
-
-**top_20_items_value_netto['Total Net Value'] = (
-    top_20_items_value_netto['Total Net Value']
-    .apply(lambda x: f'€{x:,.2f}')
-)**
-
-![visualization_net_sales](visualization_net_sales.png)
-
-## Conclusion
-
-Sales data analysis plays a key role in supporting retail business strategies. It reveals trends, highlights best-selling products, and helps teams understand customer preferences. This guides communication, marketing, and in-store engagement.
-
-In this example, the analysis shows a particularly strong performance in product personalization. Adding a personal touch to an item that the customer already wants creates extra value with only a small additional budget. This simple upgrade is having a noticeable impact, generating net revenue that is close to some of the store’s highest-priced products. With this information, both management, marketing efforts, and store teams can strengthen their storytelling, engage customers more meaningfully, and offer added value that benefits everyone.
-
-Overall, this analysis shows how data helps align people, products, and business goals—supporting a more informed, responsive, and value-driven retail experience.
-
-## Thank You for Visiting!
-
-Thank you for taking the time to explore this project! Your interest and feedback are greatly appreciated. 🌟
 
