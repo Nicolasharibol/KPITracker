@@ -1,4 +1,4 @@
-Berlin Retail Sales Analysis – September 2025
+### Berlin Retail Sales Analysis – September 2025
 
 ✨ Data-driven insights for a real retail environment
 
