@@ -8,13 +8,11 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 
 ## 🎯 Objectives
 
-• Generate a monthly retail sales snapshot
+- **Generate a monthly retail sales snapshot**  
 
-• Identify the Top 20 items by:
-
-  🛒 Quantity sold
-
-  💶 Net sales value
+- **Identify the Top 20 items by:**  
+  - 🛒 Quantity sold  
+  - 💶 Net sales value
 
 ### Data-driven insights for:
 
@@ -24,41 +22,30 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 
 ## 📊 Data & Methods
 
-• 988 rows · 23 columns, reduced to essential sales fields
+- **Dataset:** 988 rows × 23 columns (reduced to essential sales fields)  
 
-• Key variables analyzed:
+- **Key variables analyzed:**  
+  - **Item**  
+  - **Quantity**  
+  - **Discount %**  
+  - **Price incl. VAT**  
+  - **Total discount**  
+  - **Net price incl. VAT**  
 
-  • Item
+- **Additional calculated metrics:**  
+  - Occurrences per item  
+  - Total quantity per item  
+  - Individual net value per transaction  
 
-  • Quantity
-
-  • Discount %
-
-  • Price incl. VAT
-
-  • Total discount
-
-  • Net price incl. VAT
-
-• Additional calculated metrics:
-
-  • Occurrences per item
-
-  • Total Quantity per item
-
-  • Individual Net Value per transaction
-
-Tools used: Python, pandas, Jupyter Notebook, Excel
+- **Tools used:** Python, pandas, Jupyter Notebook, Excel
 
 ## 🔍 Key Insights
 
-• Personalization-based items perform exceptionally well.
+- **Personalization-based items perform exceptionally well**  
 
-• These products create high added value with minimal cost, generating revenue comparable to premium items.
+- **High added value at minimal cost** – These products generate revenue comparable to premium items.  
 
-• Insights help improve storytelling on the shop floor and guide higher-level marketing decisions.
+- **Supports storytelling and marketing decisions** – Insights help improve in-store narratives and guide strategic marketing choices.  
 
-• Retail teams can align communication and strategy more effectively using data.
-
-
+- **Enhances team alignment** – Retail teams can use data to coordinate communication and strategy more effectively.
 
