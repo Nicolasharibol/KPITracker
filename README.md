@@ -17,15 +17,15 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
   - 💶 Net sales value  
 
 - **Provide data-driven insights for:**  
-  - **In-store storytelling** – Present engaging product stories and trends directly in the store.  
-  - **Strategic marketing** – Inform promotions, campaigns, and product focus.  
-  - **Customer-focused decisions** – Guide choices that enhance the customer experience.
+  - **In-store storytelling** – Highlight product narratives and trends directly on the sales floor 
+  - **Strategic marketing** – Support campaigns, promotions, and product focus 
+  - **Customer-focused decisions** – Improve customer experience with data-driven choices
 
 ---
 
 ## 📊 Data & Methods
 
-- **Dataset:** 988 rows × 23 columns (reduced to essential sales fields)  
+- **Dataset:** 988 rows × 23 columns (filtered to essential sales fields)  
 
 - **Key variables analyzed:**  
   - **Item**  
@@ -40,7 +40,7 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
   - Total quantity per item  
   - Individual net value per transaction  
 
-- **Tools used:** Python, pandas, Jupyter Notebook, Excel
+- **Tools used:** Python, pandas, Jupyter Notebook, Excel, Tableau.
 
 ---
 
@@ -53,3 +53,7 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 - **Supports storytelling and marketing decisions** – Insights help improve in-store narratives and guide strategic marketing choices.  
 
 - **Enhances team alignment** – Retail teams can use data to coordinate communication and strategy more effectively.
+
+---
+  
+## ✅ Thank you for reading. Feedback, issues, and suggestions are always welcome.
