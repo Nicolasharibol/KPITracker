@@ -17,9 +17,9 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
   - 💶 Net sales value  
 
 - **Provide data-driven insights for:**  
-  - **In-store storytelling** – Highlight product narratives and trends directly on the sales floor 
-  - **Strategic marketing** – Support campaigns, promotions, and product focus 
-  - **Customer-focused decisions** – Improve customer experience with data-driven choices
+  - In-store storytelling – Highlight product narratives and trends directly on the sales floor 
+  - Strategic marketing – Support campaigns, promotions, and product focus 
+  - Customer-focused decisions – Improve customer experience with data-driven choices
 
 ---
 
@@ -46,13 +46,13 @@ This project analyzes retail sales data from a Berlin store (September 2025). Th
 
 ## 🔍 Key Insights
 
-- **Personalization-based items perform exceptionally well**  
+- Personalization-based items perform exceptionally well  
 
-- **High added value at minimal cost** – These products generate revenue comparable to premium items.  
+- High added value at minimal cost – These products generate revenue comparable to premium items.  
 
-- **Supports storytelling and marketing decisions** – Insights help improve in-store narratives and guide strategic marketing choices.  
+- Supports storytelling and marketing decisions – Insights help improve in-store narratives and guide strategic marketing choices.  
 
-- **Enhances team alignment** – Retail teams can use data to coordinate communication and strategy more effectively.
+- Enhances team alignment – Retail teams can use data to coordinate communication and strategy more effectively.
 
 ---
   
